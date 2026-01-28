@@ -6,3 +6,9 @@ Bu proje test amaçlı kurgulanmış olup temel işlevsellik senaryolarını do�
 Bu başlık altında ileride denenecek test özellikleri kısaca listelenecektir.
 
 ## Gelecek Geliştirme Notları
+
+## Faz 17 Test
+Bu değişiklik Jarvis'in güvenli write davranışını test etmek içindir.
+
+## Faz 18 Test
+Bu faz multi-file değişiklik güvenlik testidir.
