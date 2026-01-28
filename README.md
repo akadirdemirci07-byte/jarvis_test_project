@@ -12,3 +12,6 @@ Bu değişiklik Jarvis'in güvenli write davranışını test etmek içindir.
 
 ## Faz 18 Test
 Bu faz multi-file değişiklik güvenlik testidir.
+
+## Faz 20 Test
+PR akışı (branch -> PR) testi.
