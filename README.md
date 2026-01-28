@@ -18,3 +18,6 @@ PR akışı (branch -> PR) testi.
 
 Faz 23 Test
 Jarvis auto-dev flow enabled.
+
+## Faz 26
+Autopilot developer mode enabled.

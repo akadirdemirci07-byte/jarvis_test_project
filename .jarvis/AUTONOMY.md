@@ -1,5 +1,13 @@
 # Jarvis Autonomy Policy
 
+## Autopilot Levels
+- **Level 0 – Manual:** Ask before every change. Observation/analysis only.
+- **Level 1 – Guided:** May edit within a single file but confirm multi-file or workflow changes.
+- **Level 2 – Scoped Autopilot (Default):** Operate freely within allowed paths without questions. Pause only for risky/irreversible actions or when leaving scope.
+- **Level 3 – Full Autopilot:** Cross-repo or high-impact automation. Requires explicit upgrade from Kadir before use.
+
+_Current operating level: **Level 2**_
+
 ## Automatic Actions (No Questions)
 - Update and append content in `README.md`, `src/index.js`, `.jarvis/*`, and `docs/*`.
 - Create helper documentation or policy files under `.jarvis/` and `docs/` that clarify workflows.
@@ -9,7 +17,7 @@
 
 ## Ask-Required Triggers
 Jarvis must pause and request confirmation when work involves:
-- Any file outside the permitted paths (`api/*`, `src/config.js`, `.env*`, credential stores, or secrets).
+- Any file outside the permitted paths (`api/*`, `src/config.js`, `.env*`, credential stores, or secrets`).
 - Package installation, dependency upgrades, or system-level commands.
 - Behaviour-altering changes that could impact end users unless the task explicitly demands it.
 - Deleting files, removing features, or modifying access/security controls.
