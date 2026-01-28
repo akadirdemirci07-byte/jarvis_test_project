@@ -15,3 +15,6 @@ Bu faz multi-file değişiklik güvenlik testidir.
 
 ## Faz 20 Test
 PR akışı (branch -> PR) testi.
+
+Faz 23 Test
+Jarvis auto-dev flow enabled.
